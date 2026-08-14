@@ -49,6 +49,9 @@ doesn't match anything in the dictionary. Back up and take the shorter
 
 - Answer → `2`
 
+Want a slower, more thorough walk through this and one more example,
+staged decision by decision? See [EXAMPLE.md](EXAMPLE.md).
+
 ### Constraints
 
 Nothing sneaky here — just the numbers to design around:
