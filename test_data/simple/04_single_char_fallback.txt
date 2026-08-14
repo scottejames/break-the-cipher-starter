@@ -1,0 +1,7 @@
+name=04_single_char_fallback
+expected=3
+message=abc
+dictionary=
+a
+b
+c

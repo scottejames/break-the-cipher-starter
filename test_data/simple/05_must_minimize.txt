@@ -1,0 +1,7 @@
+name=05_must_minimize
+expected=2
+message=aaaa
+dictionary=
+a
+aa
+aaa

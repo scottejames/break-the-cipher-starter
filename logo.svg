@@ -1,0 +1,74 @@
+<svg width="980" height="300" viewBox="0 0 980 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Break the Cipher">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12191a"/>
+      <stop offset="100%" stop-color="#182324"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.05"/>
+    </pattern>
+    <linearGradient id="beam" x1="247.5" y1="90.6" x2="371.4" y2="-4.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#bff3ec" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#bff3ec" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="980" height="300" fill="url(#bg)"/>
+  <rect x="0" y="0" width="980" height="300" fill="url(#grid)"/>
+  <rect x="0" y="294" width="980" height="6" fill="#3fb6ab"/>
+
+  <!-- signal waves -->
+  <path d="M 118 66 Q 170 8 222 66" stroke="#7fe0d6" stroke-width="4" fill="none" opacity="0.3"/>
+  <path d="M 138 72 Q 170 34 202 72" stroke="#bff3ec" stroke-width="4" fill="none" opacity="0.55"/>
+
+  <!-- light breaking through the disc -->
+  <polygon points="234.3,73.4 260.6,107.7 405.6,40 337.2,-49.2" fill="url(#beam)"/>
+
+  <!-- cipher wheel emblem -->
+  <g transform="translate(170,150)">
+    <circle r="112" fill="none" stroke="#3fb6ab" stroke-width="16"/>
+
+    <!-- dial ticks -->
+    <g stroke="#3fb6ab" stroke-width="5" stroke-linecap="round">
+      <line x1="0" y1="-100" x2="0" y2="-112"/>
+      <line x1="50" y1="-87" x2="56" y2="-97"/>
+      <line x1="87" y1="-50" x2="97" y2="-56"/>
+      <line x1="100" y1="0" x2="112" y2="0"/>
+      <line x1="87" y1="50" x2="97" y2="56"/>
+      <line x1="50" y1="87" x2="56" y2="97"/>
+      <line x1="0" y1="100" x2="0" y2="112"/>
+      <line x1="-50" y1="87" x2="-56" y2="97"/>
+      <line x1="-87" y1="50" x2="-97" y2="56"/>
+      <line x1="-100" y1="0" x2="-112" y2="0"/>
+      <line x1="-87" y1="-50" x2="-97" y2="-56"/>
+      <line x1="-50" y1="-87" x2="-56" y2="-97"/>
+    </g>
+
+    <!-- disc face -->
+    <circle r="90" fill="#1b2626"/>
+
+    <!-- inner rotor -->
+    <circle r="58" fill="none" stroke="#3fb6ab" stroke-width="6"/>
+    <g fill="#3fb6ab">
+      <circle cx="0" cy="-58" r="5"/>
+      <circle cx="50" cy="29" r="5"/>
+      <circle cx="-50" cy="29" r="5"/>
+    </g>
+
+    <!-- indicator needle -->
+    <line x1="0" y1="0" x2="0" y2="-58" stroke="#f7f5f0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M -8 -50 L 8 -50 L 0 -66 Z" fill="#f7f5f0"/>
+
+    <!-- hub -->
+    <circle r="12" fill="#f7f5f0"/>
+  </g>
+
+  <!-- wordmark -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="358" y="112" font-size="40" font-weight="700" letter-spacing="6" fill="#3fb6ab">BREAK THE</text>
+    <text x="354" y="212" font-size="106" font-weight="900" letter-spacing="1" fill="#f7f5f0">CIPHER</text>
+    <line x1="358" y1="230" x2="760" y2="230" stroke="#3fb6ab" stroke-width="4"/>
+    <text x="358" y="258" font-size="16" font-weight="600" letter-spacing="3" fill="#87a0a0">STRING DECODING &#183; CODING ASSESSMENT</text>
+  </g>
+</svg>

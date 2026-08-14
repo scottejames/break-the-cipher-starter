@@ -1,0 +1,8 @@
+name=07_irrelevant_dictionary_entries
+expected=2
+message=ab
+dictionary=
+a
+b
+xyz
+longwordnotused

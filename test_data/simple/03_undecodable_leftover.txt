@@ -1,0 +1,5 @@
+name=03_undecodable_leftover
+expected=-1
+message=cats
+dictionary=
+cat

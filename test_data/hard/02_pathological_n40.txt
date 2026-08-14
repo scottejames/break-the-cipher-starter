@@ -1,0 +1,14 @@
+name=02_pathological_n40
+expected=4
+message=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+dictionary=
+a
+aa
+aaa
+aaaa
+aaaaa
+aaaaaa
+aaaaaaa
+aaaaaaaa
+aaaaaaaaa
+aaaaaaaaaa

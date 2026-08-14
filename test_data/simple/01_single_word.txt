@@ -1,0 +1,5 @@
+name=01_single_word
+expected=1
+message=cat
+dictionary=
+cat

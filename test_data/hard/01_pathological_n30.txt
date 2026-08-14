@@ -1,0 +1,16 @@
+name=01_pathological_n30
+expected=3
+message=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+dictionary=
+a
+aa
+aaa
+aaaa
+aaaaa
+aaaaaa
+aaaaaaa
+aaaaaaaa
+aaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaaa
+aaaaaaaaaaaa

@@ -1,0 +1,7 @@
+name=08_prefer_whole_word
+expected=1
+message=apple
+dictionary=
+apple
+app
+le

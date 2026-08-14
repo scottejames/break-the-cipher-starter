@@ -1,0 +1,7 @@
+name=03_must_minimize_longer
+expected=2
+message=aaaaaaaaaa
+dictionary=
+a
+aaa
+aaaaa

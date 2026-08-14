@@ -1,0 +1,5 @@
+name=06_no_match_at_all
+expected=-1
+message=xyz
+dictionary=
+abc

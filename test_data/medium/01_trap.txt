@@ -1,0 +1,7 @@
+name=01_trap
+expected=2
+message=abcde
+dictionary=
+abc
+ab
+cde

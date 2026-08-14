@@ -1,0 +1,11 @@
+name=05_lookahead
+expected=3
+message=therein
+dictionary=
+the
+there
+he
+r
+e
+i
+n
